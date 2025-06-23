@@ -9,7 +9,7 @@ function App() {
     className="fixed flex flex-wrap w-full h-screen justify-center items-center px-2 gap-2"
     style={{
       backgroundColor: color,
-      color: color === "black" ? "white" : "black",
+      transition: "background-color 0.7s ease-in-out"
     }}
   >
     <div className="flex flex-wrap justify-center px-5 py-5 gap-4 bg-white rounded-2xl shadow-lg absolute bottom-10 ">
